@@ -1,0 +1,66 @@
+<!DOCTYPE html><html>
+    <head>
+      <title>Page</title>
+      <link rel="stylesheet" href="design.css">
+    </head>
+<h1 id="title">Ice Cream Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<div id="body">
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name</p>
+  </label>
+ <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  <label id="email-label" for="email">
+<p>Email</p>
+  </label>
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+  <label id="number-label" for="number">
+<p>Age (optional)</p>
+  </label>
+ <input id="number" type="number" placeholder="Age" min="12" max="50">
+ 
+ <p>Which is your favourite brand?</p>
+  <select id="dropdown">
+    <option value="Arun">Arun</option>
+    <option value="Dairy Day">Dairy Day</option>
+    <option value="Amul">Amul</option>
+    <option value="Kwality Walls">Kwality Walls</option>
+    <option value="Cream Bell">Cream Bell</option>
+    </select>
+  
+  <p>Wchich flavour you like the most?</p>
+<input type="radio" name="flavour" value="1">Chocolate</input>
+<br>
+<input type="radio" name="flavour" value="2">Vannila</input>
+<br>
+<input type="radio" name="flavour" value="3">Strawberry</input>
+<br>
+<input type="radio" name="flavour" value="4">Butter Scotch</input>
+<br>
+<input type="radio" name="flavour" value="5">Pista</input>
+<br>
+
+<p>Wchich type of ice cream you like?</p>
+<input type="checkbox" name="variety" value="1">Cones</input>
+<br>
+<input type="checkbox" name="variety" value="2">Sticks</input>
+<br>
+<input type="checkbox" name="variety" value="3">Cake</input>
+<br>
+<input type="checkbox" name="variety" value="4">Bucket</input>
+<br>
+<input type="checkbox" name="variety" value="5">Float</input>
+<br>
+
+<p>Any comments or suggestions?</p>
+<textarea id="comment" rows="4" cols="40">Enter Your Comments Here</textarea>
+<br>
+<input id="submit" type="Submit" value="Submit">
+
+</form>
+</div>
+  </html>
